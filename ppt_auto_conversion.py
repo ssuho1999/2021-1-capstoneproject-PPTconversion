@@ -32,7 +32,7 @@ slide.placeholders[16].text = "논문 영어 제목 성공"
 # 슬라이드 노트
 notes_slide = slide.notes_slide
 text_frame = notes_slide.notes_text_frame
-text_frame.text = '권기현 바보'
+text_frame.text = '텍스트 상자'
 
 #두 번째 슬라이드 레이아웃-목차, 목차 예시                            
 add_slide_layout = prs.slide_layouts[1]
@@ -46,7 +46,7 @@ slide.placeholders[15].text = "1. 서론 2. 연구 배경 성공"
 # 슬라이드 노트
 notes_slide = slide.notes_slide
 text_frame = notes_slide.notes_text_frame
-text_frame.text = '군만두겠습니다.'
+text_frame.text = '텍스트 상자'
 
 #세 번째 슬라이드 레이아웃-참고문헌, 참고문헌 예시
 add_slide_layout = prs.slide_layouts[2]
@@ -60,7 +60,7 @@ slide.placeholders[0].text = "참고문헌 성공"
 # 슬라이드 노트
 notes_slide = slide.notes_slide
 text_frame = notes_slide.notes_text_frame
-text_frame.text = '군만두겠습니다.'
+text_frame.text = '텍스트 상자'
 
 #네 번째 슬라이드 레이아웃-목차, 그림, 요약
 add_slide_layout = prs.slide_layouts[3]
@@ -74,10 +74,10 @@ slide.placeholders[15].text = "요약 성공"
 # 슬라이드 노트
 notes_slide = slide.notes_slide
 text_frame = notes_slide.notes_text_frame
-text_frame.text = '군만두겠습니다.'
+text_frame.text = '텍스트 상자'
 # 이미지 삽입 picture() 가로 안에 경로 
 img = slide.placeholders[13]
-img.insert_picture('/content/gdrive/MyDrive/2학기 프로젝트/초본/apple.jpeg')
+img.insert_picture('/content/gdrive/MyDrive/2학기 프로젝트/apple.jpeg')
 
 #다섯 번째 슬라이드 레이아웃-목차, 요약 *본문은 노트에 넣어야 됨*
 add_slide_layout = prs.slide_layouts[4]
@@ -92,7 +92,7 @@ slide.placeholders[0].text = "목차 성공11"
 # 슬라이드 노트
 notes_slide = slide.notes_slide
 text_frame = notes_slide.notes_text_frame
-text_frame.text = '군만두겠습니다.'
+text_frame.text = '텍스트 상자'
 
 add_slide_layout = prs.slide_layouts[5]
 slide = prs.slides.add_slide(add_slide_layout)
