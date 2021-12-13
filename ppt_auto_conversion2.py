@@ -17,6 +17,14 @@ drive.mount('/content/gdrive/')
 from pptx import Presentation
 prs = Presentation('/content/gdrive/MyDrive/2학기 프로젝트/초본/Standard_ppt.pptx')
 
+
+#json 파일 가져오기
+from pprint import pprint 
+with open('/content/gdrive/MyDrive/2학기 프로젝트/다음/result/convResult.json') as data_file:
+  local = json.load(data_file)
+
+pprint(local)
+
 #첫 번째 슬라이드 레이아웃-논문 한글 제목, 논문 영어 제목, 이름, 소속 
 add_slide_layout = prs.slide_layouts[0]
 slide = prs.slides.add_slide(add_slide_layout)
